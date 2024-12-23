@@ -1,0 +1,6 @@
+/* Hamburger Icon for Mobile */
+.hamburger {
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+}

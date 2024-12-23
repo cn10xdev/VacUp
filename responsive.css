@@ -1,0 +1,37 @@
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        display: none; 
+        flex-direction: column; 
+        width: 100%;
+        background-color: #F4EDEA; 
+        position: absolute;
+        top: 60px;
+        right: 0;
+        border-radius: 5px;
+        margin-right: 0;
+    }
+
+    nav ul li {
+        text-align: center;
+        width: 100%;
+        padding: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    nav ul li:last-child {
+        border-bottom: none;
+    }
+
+   
+    .hamburger {
+        display: block;
+    }
+
+    
+    nav.active ul {
+        display: flex;
+        z-index: 10000;
+    }
+}
